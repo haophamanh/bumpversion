@@ -3,7 +3,7 @@
 ---
 # -- Module: generic_service ----------------------------------------------- {{{
 #
-generic_service::version: 1.27.202-1
+generic_service::version: 1.25.51-1
 generic_service::version: "%{hiera('generic_service::release_version')}"
 hs-p2api-redis: amazonaws.com
 generic_service::config_files:
